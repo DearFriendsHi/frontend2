@@ -1,0 +1,79 @@
+.example-spacer {
+    flex: 1 1 auto;
+    margin-right: 10px;
+}
+.mat-toolbar-text {
+    margin-left: 10px;
+}
+.button {
+	width: 80px;
+	height: 40px;
+	background-color: black;
+	color: white;
+    font-size: 17px;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+.menu-icon {
+    color: black;
+}
+.cart-icon {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-right: 10px;
+}
+.mat-toolbar {
+    height: 60px;
+   margin-top: 10px;
+}
+.mat-drawer {
+    background: #454749;
+    z-index: 1;
+    top: 1;
+    width: 15rem;
+    box-shadow: 0.063rem 0 1.25rem 0 #8690a3;
+    height: max-content;
+}
+.mat-nav-list {
+    list-style: none;
+    padding: 0.938rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 3.65rem);
+    cursor: pointer;
+}
+.mat-list-item {
+    width: 100%;
+    margin-bottom: 0.625rem;
+}
+.mat-nav-link {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    color: #f3f3f3;
+    text-decoration: none;
+    border-radius: 0.625rem;
+    transition: color .3s ease;
+}
+.mat-nav-icon {
+    font-size: 22px;
+    width: 4rem;
+    min-height: 2 rem;
+    margin: 0 0.5 rem;
+    text-align: center;
+}
+.mat-nav-text {
+    margin-left: 1.5 rem;
+}
+
+.mat-list-item:hover {
+    .mat-nav-link {
+        background-color: #f3f3f3;
+        color: black;
+        width: 18rem;
+    }
+}
+
+
